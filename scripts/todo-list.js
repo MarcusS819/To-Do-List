@@ -16,7 +16,9 @@ function updatePage()
         const date = todoObject.date;
 
         todoListHTML += 
-            `<div>${name}</div>
+            `<input type="checkbox"
+               class="checkbox">
+             <div>${name}</div>
              <div>${date}</div>
              <button onClick=
                  "deleteToDo(${i});
